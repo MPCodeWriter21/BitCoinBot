@@ -5,8 +5,8 @@ printf "\e[92mBlog\e[0m: \e[34mCodeWriter21.blogsky.com\n\n"
 
 printf "\e[93mInstalling...\n\e[0m\n"
 
-pkg install python
-pkg install curl
+apt install python
+apt install curl
 
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
